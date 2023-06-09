@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    gap: 32px;
+    
+
+}
+body{
+    font-family:'nonito', sans-serif;
+}
+img{
+
+    width: 35%;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border : 2px solid #155EEF;
+margin-top: 1%;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    
+
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #155EEF;
+    margin-top: 1%;
+    height: 50vh;
+}
+button{
+border : 1px;
+background-color: #155EEF;
+color: aliceblue;
+
+padding: 3px;
+color: #155EEF;
+ }
+ p{
+    text-align: start;
+
+ }
+
+ .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+border : 2px solid #155EEF;
+
+    
+ }
+ h2{
+    text-align: start;
+    margin-bottom: 12px;
+
+ }
+ h4{
+    text-align: start;
+ }
+ h1{
+    text-align: start;
+    font-family: sans-serif ;
+    font-style: italic;
+    color: #155EEF;
+ }
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5%;
+
+
+    width: 50%;
+}
+.hero-image {
+    align-items: center;
+    
+    width: 70%;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border:2px solid #155EEF;
+    margin-top: 4px;
+}
+.media-icons{
+    display: flex;
+    align-items: center;
+    width: 39%;
+    padding: 10px;
+
+}
+.copyright{
+    text-align: start;
+    padding: 10px;
+}
